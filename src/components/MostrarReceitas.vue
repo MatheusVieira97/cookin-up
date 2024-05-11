@@ -1,5 +1,5 @@
 <script lang="ts">
-import { obterReceitas } from '@/http';
+import { obterReceitas } from '@/https';
 import type IReceita from '@/interfaces/IReceita';
 import { itensDeLista1EstaoEmLista2 } from '@/operacoes/listas';
 import type { PropType } from 'vue';

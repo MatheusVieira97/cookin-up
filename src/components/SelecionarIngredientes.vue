@@ -1,8 +1,8 @@
 <script lang="ts">
-import { obterCategorias } from '@/http/index';
+import { obterCategorias } from '@/https';
 import type ICategoria from '@/interfaces/ICategoria';
-import CardCategoria from './CardCategoria.vue';
 import BotaoPrincipal from './BotaoPrincipal.vue';
+import CardCategoria from './CardCategoria.vue';
 
 export default {
   name: 'SelecionarIngredientes',
